@@ -3,8 +3,8 @@
 Use the `scan` command with the `-n` (or `--number +5535997278472`) option.
 
 ```
-phoneinfoga scan -n "+1 (555) 444-1212"
-phoneinfoga scan -n "+33 06 79368229"
+phoneinfoga scan -n "+55 (35) 9727-8472"
+phoneinfoga scan -n "+55 35 97278472"
 phoneinfoga scan -n "33679368229"
 ```
 
