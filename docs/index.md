@@ -1,3 +1,6 @@
+phoneinfoga scan -n "+55 (35) 9727-8472"
+phoneinfoga scan -n "+55 35 97278472"
+phoneinfoga scan -n "+553597278472"
 ---
 hide:
 - navigation
