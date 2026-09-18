@@ -1,3 +1,6 @@
+phoneinfoga scan -n "+1 (555) 444-1212"
+phoneinfoga scan -n "+33 06 79368229"
+phoneinfoga scan -n "33679368229"
 ---
 hide:
 - navigation
