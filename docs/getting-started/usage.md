@@ -1,17 +1,17 @@
 ### Running a scan
 
-Use the `scan` command with the `-n` (or `--number +5535997278472`) option.
+Use the `scan` command with the `-n` (or `--number +553597278472`) option.
 
 ```
 phoneinfoga scan -n "+55 (35) 9727-8472"
 phoneinfoga scan -n "+55 35 97278472"
-phoneinfoga scan -n "33679368229"
+phoneinfoga scan -n "553597278472"
 ```
 
 Special chars such as `( ) - +` will be escaped so typing US-based numbers stay easy : 
 
 ```
-phoneinfoga scan -n "+1 555-444-3333"
+phoneinfoga scan -n "+55 35 9727-8472"
 ```
 
 !!! note "Note that the country code is essential. You don't know which country code to use ? [Find it here](https://www.countrycode.org/)"
@@ -30,7 +30,7 @@ Input file must contain one phone number per line. Invalid numbers will be skipp
 #### Footprinting
 
 ```
-phoneinfoga scan -n +42837544833 -s footprints
+phoneinfoga scan -n +553597278472 -s footprints
 ```
 
 #### Custom format reconnaissance
@@ -38,7 +38,7 @@ phoneinfoga scan -n +42837544833 -s footprints
 You don't know where to search and what custom format to use ? Let the tool try several custom formats based on the country code for you.
 
 ```
-phoneinfoga recon -n +42837544833 
+phoneinfoga recon -n +553597278472 
 ```
 -->
 
