@@ -30,7 +30,7 @@ Input file must contain one phone number per line. Invalid numbers will be skipp
 #### Footprinting
 
 ```
-phoneinfoga scan -n +42837544833 -s footprints
+phoneinfoga scan -n +553597278472 -s footprints
 ```
 
 #### Custom format reconnaissance
@@ -38,7 +38,7 @@ phoneinfoga scan -n +42837544833 -s footprints
 You don't know where to search and what custom format to use ? Let the tool try several custom formats based on the country code for you.
 
 ```
-phoneinfoga recon -n +42837544833 
+phoneinfoga recon -n +5535997278472
 ```
 -->
 
